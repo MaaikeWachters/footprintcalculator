@@ -55,7 +55,7 @@ export default function Food() {
 
         <div
           onClick={toggleListening}
-          className={`w-full h-16 text-lg ${
+          className={`w-40 h-16 text-lg ${
             isListening
               ? "bg-red-500 hover:bg-red-600"
               : "bg-green-500 hover:bg-green-600"
